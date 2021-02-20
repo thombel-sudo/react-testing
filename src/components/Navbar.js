@@ -1,3 +1,4 @@
+import './Navbar.css';
 let Navbar = () => {
     return (<nav className='nav'>
         <div>
