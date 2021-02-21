@@ -5,12 +5,14 @@ let MyPosts = () =>{
         <div>
             MyPosts
             <div>
-                New Post
+                <textarea></textarea>
+                <button>Add post</button>
             </div>
 
             <div className={classes.posts}>
                 <Post/>
                 <Post/>
+
             </div>
         </div>
         );
