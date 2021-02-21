@@ -10,8 +10,8 @@ let MyPosts = () =>{
             </div>
 
             <div className={classes.posts}>
-                <Post/>
-                <Post/>
+                <Post message="Hi! How are you?" likecount="20"/>
+                <Post message="It's my first post" likecount="5"/>
 
             </div>
         </div>
